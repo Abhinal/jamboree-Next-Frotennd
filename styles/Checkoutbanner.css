@@ -1,0 +1,30 @@
+#checkout img {
+  max-height: 146px;
+}
+#p {
+  color: #8e8484;
+  line-height: 20px;
+}
+#btn-order {
+  color: #ffffff;
+  background-color: #c37777;
+  border: none;
+  border-radius: 5px;
+}
+#quantity {
+  border: none;
+  background-color: #ffffff;
+}
+#btn-cancel {
+  background: #faf7f6;
+  border: 1px solid #c37777;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #651010;
+}
+#btn-modi {
+  background: #c37777;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
+

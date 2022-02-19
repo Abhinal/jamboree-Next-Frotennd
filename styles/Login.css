@@ -1,0 +1,38 @@
+.button-1 {
+    background-color : #C37777;
+    color: #fff;
+}
+#login-image {
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 63.71%), url("../public/images/login-1.png");
+    background-size: cover;
+}
+.button-2 {
+    color : #C37777;
+    background-color: #fff;
+    border: 1px solid #C37777;
+}
+
+#login-form {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media (max-width:768px) {
+
+    #login-image > div {
+        /* margin-top: 500px; */
+        margin-bottom: auto;
+    }
+    
+    #login-form{
+        position: absolute;
+        background-color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        z-index: 100;
+        margin-top: 475px;
+        border-radius: 8%;
+    }
+    
+}

@@ -1,0 +1,53 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.defaultColor {
+  color: #651010;
+}
+.allura {
+  font-family: "Allura", cursive;
+}
+
+.cinzel {
+  font-family: "Cinzel", serif;
+}
+
+.montserrat {
+  font-family: Montserrat;
+}
+.bg-default{
+  background-color: #F7F1F0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-dark-jm {
+  background: #c37777;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  color: #fff;
+}
+
+.btn-dark-jm:hover {
+  background: #e6bebe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  color:  #651010;
+}

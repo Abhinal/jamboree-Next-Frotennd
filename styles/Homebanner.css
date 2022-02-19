@@ -1,0 +1,66 @@
+#carouselExampleControls a > i {
+    font-size: 3rem;
+    color: #00000066;
+}
+
+#carouselExampleControls a > i:hover {
+    font-size: 3rem;
+    color: #000;
+}
+
+.bgrad{
+    background: linear-gradient(90.53deg, rgba(91, 0, 0, 0.7) 17.57%, rgba(91, 0, 0, 0) 98.61%);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-banner1 {
+    position: absolute;
+    right: 15%;
+    bottom: 35%;
+    left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 3rem;    
+}
+
+.carousel-banner1 > p{
+    font-size: 1.2rem;
+}
+
+.carousel-footer {
+    position: absolute;
+    bottom: 0%;
+    padding: 20px;
+    font-size: 1.2rem;
+    background: linear-gradient(90.53deg, rgba(91, 0, 0, 0.7) 17.57%, rgba(91, 0, 0, 0) 98.61%);
+}
+
+@media (max-width: 850px) {
+    .carousel-footer {
+        padding: 10px;
+        margin-bottom: -10px;
+        padding-bottom: 0px;
+        font-size: 1rem;
+    }
+    .carousel-banner1 {
+        bottom: 20%;
+        font-size: 0.6rem;
+    }
+    .carousel-item >img {
+        height: 500px;
+        object-fit: cover;
+    }
+    .carousel-banner1 > h2 {
+        font-size: 1.5rem;
+    }
+    
+    .carousel-banner1 > a{
+        font-size: 1.2rem;
+        padding: 2px 10px;
+    }
+    .bgrad{
+        background: linear-gradient(358.36deg, #5B0000 3.45%, #5B0000 21.35%, rgba(91, 0, 0, 0) 97.12%);    }
+}
